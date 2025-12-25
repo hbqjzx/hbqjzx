@@ -1,1 +1,31 @@
-https://www.52pojie.com
+{
+  "sites": [
+    {
+      "id": 1,
+      "name": "吾爱破解",
+      "url": "https://www.52pojie.cn",
+      "description": "专注于软件安全与逆向工程的技术社区，提供软件分析、破解教程、安全工具等技术交流",
+      "update_url": "https://www.52pojie.cn/forum.php",
+      "contact": {
+        "email": "admin@52pojie.cn",
+        "forum": "https://www.52pojie.cn/forum.php"
+      },
+      "check_interval": 3600,
+      "importance": "high",
+      "tags": ["安全", "逆向工程", "技术社区"]
+    }    
+  ],
+  "metadata": {
+    "version": "1.0",
+    "created": "2025-12-15",
+    "updated": "2025-12-15",
+    "author": "Your Name",
+    "description": "网站监控数据配置文件，用于页面更新提醒系统"
+  },
+  "notification_settings": {
+    "email": "your-email@example.com",
+    "check_frequency": 3600,
+    "alert_methods": ["email", "webhook"],
+    "webhook_url": "https://your-webhook-url.com/notify"
+  }
+}
